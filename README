@@ -1,13 +1,15 @@
 This bus management system was written as a solution to the problem outlined here: https://gist.github.com/mnoack/6e4b66d5a8da1a73abd5
 I chose to write this solution in PHP.
 
+If I were to implement a full solution with a gui, I would use something like angularJS and also store the data in an SQL database with a REST API.
+
 These were some of my thoughts when designing it.
 Planning:
 Arrays for:
 busses - array of bus objects where the key that identifies them is the bus id
-lines - array of line objects that are identified by the line nubmer
+lines - array of line objects that are identified by the line number
 routes - array of route objects that are identified by the route name
-stops - array of strings that are identified by an autoincrementing key
+stops - array of strings that are identified by an auto-incrementing key
 
 I have decided to perform the following tests in order to ensure the system fulfils the brief:
 Create several stops
@@ -18,7 +20,7 @@ Change the schedule the bus is on
 Change the line the bus is on
 Remove the bus from the system
 
-I will need to retieve and output the data throughout the steps above, to make sure that the system is working as designed.
+I will need to retrieve and output the data throughout the steps above, to make sure that the system is working as designed.
 
 
 I made some assumptions during this process:
