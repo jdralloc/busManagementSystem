@@ -1,0 +1,54 @@
+Jonnys-MacBook-Pro:sealink Jonny$ php busManagement.php 
+Printing all stops:
+Stop A1
+Stop A2
+Stop A3
+Stop A4
+Stop B1
+Stop B2
+
+Printing all routes:
+Route One Forward: 
+(Stops: A1 A2 A3 A4)
+Route One Return: 
+(Stops: A4 A3 A2 A1)
+Route Two Forward: 
+(Stops: B1 B2 A1)
+Route Two Return: 
+(Stops: A1 B2 B1)
+
+Printing all lines:
+Line 1234:
+It's routes are:
+Route One Forward:(Stops: A1 A2 A3 A4)
+Route One Return:(Stops: A4 A3 A2 A1)
+Line 1235:
+It's routes are:
+Route Two Forward:(Stops: B1 B2 A1)
+Route Two Return:(Stops: A1 B2 B1)
+
+Printing details for all busses:
+Bus 0 is assigned to line: 1234 and is on schedule: 08:55
+
+Bus details:
+Time Schedule: 08:55
+Line: 1234
+
+Changing schedule for bus ID 0 to 09:55
+
+Bus details:
+Time Schedule: 09:55
+Line: 1234
+
+Changing line number for bus ID 0 to 1235
+
+Bus details:
+Time Schedule: 09:55
+Line: 1235
+
+Line details for Line 1235: Route Two Forward:(Stops: B1 B2 A1)
+Route Two Return:(Stops: A1 B2 B1)
+
+Removing bus with ID 0
+Printing details for all busses:
+
