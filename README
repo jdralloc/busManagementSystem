@@ -1,6 +1,7 @@
 This bus management system was written as a solution to the problem outlined here: https://gist.github.com/mnoack/6e4b66d5a8da1a73abd5
+I chose to write this solution in PHP.
 
-These are some of my thoughts when designing it.
+These were some of my thoughts when designing it.
 Planning:
 Arrays for:
 busses - array of bus objects where the key that identifies them is the bus id
